@@ -55,7 +55,7 @@ public class RicochetConfig {
         String strAddress = samouraiFeeAddress; // fallback
         NetworkParameters params = bip47Account.getParams();
         try {
-            PaymentCode pcode = new PaymentCode(SamouraiWalletConst.samouraiDonationPCode);
+            PaymentCode pcode = new PaymentCode(SamouraiWalletConst.tsuroDonationPcode);
             SegwitAddress segwitAddress = bip47Util.getSendAddress(bip47Account, pcode, bip47WalletOutgoingIdx, params);
             // derive as bech32
             strAddress = segwitAddress.getBech32AsString();
