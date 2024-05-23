@@ -12,7 +12,7 @@ public class SamouraiConfig {
 
     // extlibj: SorobanServer
     private String sorobanServerTestnetClear = "https://soroban.samouraiwallet.com/test";
-    private String sorobanServerTestnetOnion = "http://vnecqo2arlbgsxezbz2rwkchev2t7waopkymcq47d7qg2tphbdd4ahqd.onion";
+    private String sorobanServerTestnetOnion = "http://vnecqo2arlbgsxezbz2rwkchev2t7waopkymcq47d7qg2tphbddxlsqd.onion";
     private String sorobanServerMainnetClear = "https://soroban.samouraiwallet.com"; //TEST URL SHOULD CHANGE FOR ACTUAL SERVER
     private String sorobanServerMainnetOnion = "http://sorob4sg7yiopktgz4eom7hl5mcodr6quvhmdpljl5qqhmt6po7oebid.onion";
 
